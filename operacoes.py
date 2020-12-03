@@ -35,6 +35,6 @@ while opcao != 5:
         num2 = int(input("Digite o segundo valor: "))
     elif opcao == 5:
         print("Finalizando...")
-    else: 
+    else:
         print("Opção inválida")
 print("FIM")

@@ -25,3 +25,4 @@ elif idade < 18:
     alistamentoFalta = hoje + falta
     print("Voce deverá se alistar em {} anos.\nSeu alistamento será no ano de {}"
           .format(falta, alistamentoFalta))
+          

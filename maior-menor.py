@@ -20,4 +20,4 @@ for i, v in enumerate(valor):
         print(f"Maior valor na {i+1}ª posição.")
 for i, v in enumerate(valor):
     if v == men:
-        print(f'Menor valor na posição {i+1}ª posição.')
+        print(f'Menor valor na {i+1}ª posição.')
