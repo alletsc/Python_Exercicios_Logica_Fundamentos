@@ -10,7 +10,7 @@ while True:
     else:
         print("Valor duplicado. Tente novamente.")
     r = str(input("Quer continuar [S/N]: ")).strip().upper()[0]
-    if r in 'N':
+    if r == 'N':
         break
 num.sort()
 print(f'Voce adicionou os valores: {num}')
