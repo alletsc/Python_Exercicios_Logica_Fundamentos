@@ -21,3 +21,4 @@ for i, v in enumerate(valor):
 for i, v in enumerate(valor):
     if v == men:
         print(f'Menor valor na {i+1}ª posição.')
+print()
