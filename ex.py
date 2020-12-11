@@ -121,3 +121,68 @@ for e in brasil:
 for v in e.values():
     print(v, end="")
 print("Fim")'''
+
+'''def traco():
+    print('--'*20)
+
+
+traco()
+print("   Sistema de Alunos    ")
+traco()
+print('Testando funções')
+traco()
+print('Parametros')'''
+
+'''def mensagem(msg):
+    print('-' * 30)
+    print(msg)
+    print('-' * 30)
+mensagem('INTRODUÇÃO A FUNÇÕES EM PY')'''
+
+
+
+'''def titulo(txt):
+    print('-' * 30)
+    print(txt)
+    print('-' * 30)
+
+
+titulo('   TESTE 1   ')
+titulo('   TESTE 2   ')
+titulo('   TESTE 3   ')'''
+
+
+'''
+def soma(a,b):
+    s = a + b
+    print(s)
+
+soma(4, 5)
+soma(8, 9)
+soma(3, 4)'''
+
+
+'''
+def contador(*num):
+    tam = len(num)
+    print(f'{tam} numeros')
+
+
+contador(2,4,5,6,7)
+contador(3,5,6,7,9,0)
+contador(12.2,4,5,76,8)'''
+
+
+'''
+def dobra(lst):
+    pos = 0
+    while pos <len(lst):
+        lst[pos] *= 2
+        pos += 1
+
+
+valores = [7,5,2,0,4]
+dobra(valores)
+print(valores)
+
+print('stella')'''
