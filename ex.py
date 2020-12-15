@@ -186,3 +186,73 @@ dobra(valores)
 print(valores)
 
 print('xxx')'''
+
+
+
+'''
+
+def cont(i,f,p):
+    """ Faz uma contagem e mostra na tela:
+    i = inicio da contagem
+    f = fim da contagem
+    p = passo
+    return = sem retorno
+    """
+    c =  i
+    while c <= f:
+        print(f'{c}', end=' / ')
+        c += 1
+    print('\nFIM!\n')
+
+cont(0, 10, 2)
+help(cont)
+
+'''
+
+
+'''
+def somar(a = 0, b = 0, c = 0): #parametros opcionais
+    s = a + b + c
+    print(f'A SOMA VALE: {s}')
+    
+somar(2,3,4)
+somar(3,5)
+somar(a = 2*4, b = 1)
+
+'''
+'''
+#Escopo de variáveis
+
+def teste():
+    x = 8
+    print(f'Função teste, n vale {n}')
+
+
+
+
+n = 2
+print(f" Principal {2}")
+teste()
+'''
+'''
+#Retornando valores:
+
+def somar(a=0, b=0, c=0):
+    s = a + b + c
+    return s
+
+
+r1 = somar(3, 2, 5)
+r2 = (somar(2, 2))
+r3 = somar(6)
+print(f"Os resultados são: {r1}, {r2} e {r3}.")
+'''
+
+def fatorial(n=1):
+    f = 1
+    for c in range (num, 0, -1):
+        f *= c
+    return f
+
+num = (int(input('DIGITE UM NUMERO: ')))
+print(f'O fatoria de {num} é {fatorial(num)}')
