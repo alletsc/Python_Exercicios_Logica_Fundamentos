@@ -248,6 +248,8 @@ r3 = somar(6)
 print(f"Os resultados são: {r1}, {r2} e {r3}.")
 '''
 
+
+'''
 def fatorial(n=1):
     f = 1
     for c in range (num, 0, -1):
@@ -255,4 +257,5 @@ def fatorial(n=1):
     return f
 
 num = (int(input('DIGITE UM NUMERO: ')))
-print(f'O fatoria de {num} é {fatorial(num)}')
+print(f'O fatoria de {num} é {fatorial(num)}') '''
+
