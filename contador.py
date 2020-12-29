@@ -1,7 +1,7 @@
 n = 1
 par = impar = 0
 while n !=0:
-    n = int(input("Digite um numero: "))
+    n = int(input("Digite um numero (para sair digite 0): "))
     if n != 0:
         if n % 2 == 0:
             par += 1

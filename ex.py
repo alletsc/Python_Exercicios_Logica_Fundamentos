@@ -214,7 +214,7 @@ help(cont)
 def somar(a = 0, b = 0, c = 0): #parametros opcionais
     s = a + b + c
     print(f'A SOMA VALE: {s}')
-    
+
 somar(2,3,4)
 somar(3,5)
 somar(a = 2*4, b = 1)
