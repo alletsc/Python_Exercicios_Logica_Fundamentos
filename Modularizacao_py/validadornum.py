@@ -1,4 +1,4 @@
-radef leia_int(msg):
+def leia_int(msg):
     while True:
         try:
             n = int(input(msg))
