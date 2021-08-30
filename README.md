@@ -1,6 +1,6 @@
-# Primeiros passos com Python
+# Primeiros passos com Python :snake: :woman_technologist: :books: 
 
-### Repositório de estudos e mini projetos em, Python 3, para fixação de:
+### :rocket: Repositório de estudos e mini projetos iniciais, em Python 3, para fixação de:
 
 * Fundamentos
 
