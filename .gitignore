@@ -4,6 +4,9 @@ py_learning_cod3r/manipulacao_arquivos/.vscode/launch.json
 .csv
 *.idea
 *.vscode
+Mapas/
+dados/
+data/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
