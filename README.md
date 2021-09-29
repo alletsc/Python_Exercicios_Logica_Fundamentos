@@ -12,4 +12,6 @@
 
 * Introdução a Automações
 
+* folium maps
+
 * Download do Python 3: https://www.python.org/downloads/
