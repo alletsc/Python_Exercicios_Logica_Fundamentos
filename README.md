@@ -12,4 +12,6 @@
 
 * Introdução a Automações
 
+* Pratica com dados geoespaciais e georeferenciais: folium e geopandas
+
 * Download do Python 3: https://www.python.org/downloads/
